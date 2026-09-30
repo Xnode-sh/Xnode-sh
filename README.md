@@ -15,8 +15,13 @@
 
 | | |
 |---|---|
-| [**xnode-osint**](https://github.com/Xnode-sh/Xnode) | OSINT / red-team CLI для Termux: email, username, phone, EXIF |
+| [**xnode-osint**](https://github.com/Xnode-sh/xnode-osint) | OSINT / red-team CLI для Termux: email, username, phone, EXIF |
 | [**termux-agent**](https://github.com/Xnode-sh/termux-agent) | Локальный LLM-агент с tool-calling для Termux/proot |
+| [**netmon**](https://github.com/Xnode-sh/netmon) | Монитор локальной сети для Windows: устройства, DNS-лог, захват трафика |
+| [**wifi-audit**](https://github.com/Xnode-sh/wifi-audit) | Проверка своих паролей Wi-Fi на слабость (для авторизованного тестирования собственных сетей) |
+| [**vibe-chat**](https://github.com/Xnode-sh/vibe-chat) | TUI-чат с двумя AI-агентами: Claude Code и opencode |
+| [**sockpuppet-hunter**](https://github.com/Xnode-sh/sockpuppet-hunter) | Поиск связанных аккаунтов по совокупности сигналов (для авторизованной проверки собственных аккаунтов) |
+| [**Xnode-sh.github.io**](https://github.com/Xnode-sh/Xnode-sh.github.io) | Сайт redteam.is-a.dev |
 
 ### Стек
 
