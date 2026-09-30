@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-label="RED·TEAM·LAB by Xnode">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset="1" stop-color="#0a0f1c"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="1" stop-color="#2979ff"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#00e5ff" stroke-opacity="0.05"/>
+    </pattern>
+    <filter id="glowR" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowC" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00e5ff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect x="8" y="8" width="884" height="244" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    .title { font-size: 66px; font-weight: 700; letter-spacing: 6px; }
+    .dim { fill: #5b6b86; font-size: 14px; }
+    .cy { fill: #00e5ff; font-size: 16px; }
+    .pulse { animation: pulse 3s ease-in-out infinite; }
+    .blink { animation: blink 1s steps(1) infinite; }
+    .sweep { animation: sweep 6s linear infinite; }
+    @keyframes pulse { 0%,100% { opacity: .78 } 50% { opacity: 1 } }
+    @keyframes blink { 0%,50% { opacity: 1 } 50.01%,100% { opacity: 0 } }
+    @keyframes sweep { from { transform: translateY(-60px) } to { transform: translateY(260px) } }
+  </style>
+
+  <rect width="900" height="260" fill="#04070d"/>
+  <rect x="8" y="8" width="884" height="244" rx="14" fill="url(#bg)"/>
+  <g clip-path="url(#clip)">
+    <rect x="8" y="8" width="884" height="244" fill="url(#grid)"/>
+    <!-- title bar -->
+    <rect x="8" y="8" width="884" height="30" fill="#0d1526"/>
+    <circle cx="30" cy="23" r="5" fill="#ff2e4d"/>
+    <circle cx="50" cy="23" r="5" fill="#2a3550"/>
+    <circle cx="70" cy="23" r="5" fill="#2a3550"/>
+    <text x="450" y="28" text-anchor="middle" class="mono dim">xnode@redteam-lab: ~</text>
+
+    <text x="40" y="76" class="mono cy">$ <tspan fill="#8fa3c4">whoami</tspan></text>
+
+    <g class="pulse">
+      <text x="40" y="152" class="mono title" fill="#ff2e4d" filter="url(#glowR)">RED<tspan fill="#00e5ff">·</tspan>TEAM<tspan fill="#00e5ff">·</tspan>LAB</text>
+    </g>
+    <text x="43" y="188" class="mono cy" filter="url(#glowC)" fill="#00e5ff">by Xnode<tspan fill="#5b6b86"> // Termux · OSINT · local LLM agents on Android</tspan></text>
+
+    <text x="40" y="226" class="mono cy">$ <tspan fill="#8fa3c4">_</tspan></text>
+    <rect class="blink" x="66" y="212" width="9" height="16" fill="#00e5ff"/>
+
+    <!-- scanline -->
+    <rect class="sweep" x="8" y="0" width="884" height="60" fill="url(#scan)"/>
+    <path d="M8 8H892" stroke="none"/>
+  </g>
+  <!-- neon frame -->
+  <rect x="8" y="8" width="884" height="244" rx="14" fill="none" stroke="url(#frame)" stroke-width="2.5" filter="url(#glowC)"/>
+  <rect x="8" y="8" width="884" height="244" rx="14" fill="none" stroke="#ff2e4d" stroke-opacity="0.0"/>
+  <path d="M860 246h32v-32" fill="none" stroke="#ff2e4d" stroke-width="3" stroke-linecap="round" transform="translate(-6 -2)"/>
+</svg>
