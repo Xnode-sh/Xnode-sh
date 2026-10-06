@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/banner.svg" width="1280" alt="XNODE — RED └•TEAM•┐ lab™ · Research • Tools • OSINT • AI"></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=800&color=CE3049&center=true&vCenter=true&width=900&height=60&lines=RED+TEAM+LAB;RIG+%C2%B7+KAI+%C2%B7+NOVA+%C2%B7+ORBIT;Research+%E2%80%A2+Tools+%E2%80%A2+OSINT+%E2%80%A2+AI" alt="RED TEAM LAB">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=26&duration=2600&pause=800&color=CE3049&center=true&vCenter=true&width=900&height=70&lines=RED+TEAM+LAB;RIG+%C2%B7+KAI+%C2%B7+NOVA+%C2%B7+ORBIT;Research+%E2%80%A2+Tools+%E2%80%A2+OSINT+%E2%80%A2+AI" alt="RED TEAM LAB">
 </p>
 
 <p align="center">
