@@ -2,60 +2,60 @@
 
 <p align="center"><a href="https://github.com/Xnode-sh/RED-TEAM-LAB">Штаб</a> · <a href="https://github.com/Xnode-sh/xnode-osint">OSINT</a> · <a href="https://github.com/Xnode-sh/termux-agent">AI</a> · <a href="https://redteam.is-a.dev">Сайт</a></p>
 
-**RED └•TEAM•┐ lab™** — инженерная лаборатория XNODE. Исследуем Linux и Android, создаём CLI-инструменты, автоматизацию и локальных AI-агентов. Штаб, роли и процесс работы — в [RED-TEAM-LAB](https://github.com/Xnode-sh/RED-TEAM-LAB).
+**RED └•TEAM•┐ lab™** — инженерная лаборатория XNODE. Исследуем Linux, мобильные системы и облачные среды; создаём инструменты, автоматизацию и AI-интеграции. Штаб и инженерный процесс — в [RED-TEAM-LAB](https://github.com/Xnode-sh/RED-TEAM-LAB).
 
-<img src="assets/divider.svg" width="1280" alt="">
+## Архитектура CORE
 
-## Команда
+<p align="center"><img src="assets/architecture.svg" width="720" alt="CORE объединяет четыре инженерных узла; NODE отделён как Lab Companion."></p>
 
-| RIG | KAI | NOVA |
-| :--- | :--- | :--- |
-| <img src="assets/team-rig.svg" width="260" alt="RIG — Linux и системы"> | <img src="assets/team-kai.svg" width="260" alt="KAI — Android и полевая работа"> | <img src="assets/team-nova.svg" width="260" alt="NOVA — автоматизация и инструменты"> |
-| Linux, железо, инфраструктура | Android, Termux, Ubuntu/proot | CLI, интеграции, автоматизация |
+**CORE → RIG · KAI · NOVA · ORBIT**<br>
+**LAB COMPANION → NODE**
 
-NODE — маленький кибер-лисёнок, фирменный маскот лаборатории.
+## Engineering Nodes
 
-## Архитектура
+| **RIG · Systems & Linux** | **KAI · Mobile Field** |
+| :---: | :---: |
+| <img src="assets/team-rig.svg" width="170" alt="RIG — спокойный северный волк"> | <img src="assets/team-kai.svg" width="170" alt="KAI — красная панда"> |
+| **Северный волк** · Linux, оборудование, сеть и надёжность инфраструктуры. | **Красная панда** · Android, Termux и мобильная полевая работа. |
 
-```text
-XNODE / RED └•TEAM•┐ lab™
-├── CORE   RED-TEAM-LAB · штаб / роли / workflow
-├── LAB    termux-agent · vibe-chat
-├── TOOLS  xnode-osint · sockpuppet-hunter · wifi-audit · netmon
-└── PUBLIC профиль · redteam.is-a.dev
-```
+| **NOVA · Mobile Automation & Tooling** | **ORBIT · Cloud Workspace & Integration** |
+| :---: | :---: |
+| <img src="assets/team-nova.svg" width="170" alt="NOVA — маленькая чёрная лиса"> | <img src="assets/team-orbit.svg" width="170" alt="ORBIT — полярная сова"> |
+| **Чёрная лиса** · CLI, автоматизация, инструменты и интеграции. | **Полярная сова** · Codex Cloud, рабочие пространства и координация интеграций. |
 
-## Основные проекты
+## NODE · Lab Companion
 
-| Проект | Назначение |
+<img src="assets/node.svg" width="42" align="left" alt="NODE — кибер-лисёнок, маскот лаборатории">
+
+**NODE** — кибер-лисёнок с чёрным корпусом, белым хвостом и красным сигналом. Он сопровождает Engineering Nodes как маскот и не входит в инженерную команду.
+
+<br clear="left">
+
+## Проекты лаборатории
+
+| Слой | Проекты |
 | :--- | :--- |
-| [RED-TEAM-LAB](https://github.com/Xnode-sh/RED-TEAM-LAB) | Главный штаб: команда, документация и инженерный процесс |
-| [termux-agent](https://github.com/Xnode-sh/termux-agent) | Локальный LLM-агент с вызовом инструментов для Termux/proot |
-| [xnode-osint](https://github.com/Xnode-sh/xnode-osint) | CLI-набор для исследования открытых данных |
-| [sockpuppet-hunter](https://github.com/Xnode-sh/sockpuppet-hunter) | Корреляция публичных профилей по совокупности сигналов |
-
-## Инструменты
-
-[**wifi-audit**](https://github.com/Xnode-sh/wifi-audit) — локальная оценка стойкости паролей.<br>
-[**netmon**](https://github.com/Xnode-sh/netmon) — инвентаризация и диагностика LAN в Windows.<br>
-[**vibe-chat**](https://github.com/Xnode-sh/vibe-chat) — интерфейс для работы с двумя AI CLI.
+| **CORE** | [RED-TEAM-LAB](https://github.com/Xnode-sh/RED-TEAM-LAB) — штаб, роли и workflow |
+| **LAB** | [termux-agent](https://github.com/Xnode-sh/termux-agent) — локальный LLM · [vibe-chat](https://github.com/Xnode-sh/vibe-chat) — AI CLI |
+| **TOOLS** | [xnode-osint](https://github.com/Xnode-sh/xnode-osint) · [sockpuppet-hunter](https://github.com/Xnode-sh/sockpuppet-hunter) · [wifi-audit](https://github.com/Xnode-sh/wifi-audit) · [netmon](https://github.com/Xnode-sh/netmon) |
+| **PUBLIC** | [Сайт лаборатории](https://redteam.is-a.dev) · профиль XNODE |
 
 ## Технологии
 
-**Системы:** Linux · Debian · Android · Termux · proot<br>
+**Системы:** Linux · Debian · Android · Termux · proot · Windows<br>
 **Разработка:** Python · Bash · PowerShell · JavaScript / Node.js · Rust<br>
-**Инструменты:** Git · GitHub CLI · SSH · ADB · Ollama
+**Облако и инструменты:** Git · GitHub CLI · Codex · SSH · ADB · Ollama
 
 ## Workflow
 
-`PLAN → ISSUE → BRANCH → WORK → TEST → PR → REVIEW → MERGE`
+PLAN → ISSUE → BRANCH → WORK → TEST → PR → REVIEW → MERGE
 
-Рабочие ветки: `rig/<task>` · `kai/<task>` · `nova/<task>`. Подробности — в [WORKFLOW.md](https://github.com/Xnode-sh/RED-TEAM-LAB/blob/main/WORKFLOW.md).
+Рабочие ветки: rig/task · kai/task · nova/task · orbit/task. Подробнее: [WORKFLOW.md](https://github.com/Xnode-sh/RED-TEAM-LAB/blob/main/WORKFLOW.md).
 
 <img src="assets/divider.svg" width="1280" alt="">
 
 ## Статус лаборатории
 
-<img src="assets/node.svg" width="32" alt="NODE"> Штаб организован · проекты развиваются · проверка проходит через review. Статусы отдельных проектов публикуются в их README; эта страница не заменяет CI и не заявляет готовность всех инструментов.
+<img src="assets/node.svg" width="32" alt="NODE"> CORE объединяет четыре инженерных узла. Проекты развиваются, изменения проходят review. Статусы проектов указаны в их README.
 
-[GitHub](https://github.com/Xnode-sh) · [Сайт](https://redteam.is-a.dev) · [Telegram](https://t.me/xnode_sh) · [TikTok](https://www.tiktok.com/@xnode.sh)
+[GitHub](https://github.com/Xnode-sh) · [Штаб](https://github.com/Xnode-sh/RED-TEAM-LAB) · [Сайт](https://redteam.is-a.dev) · [Telegram](https://t.me/xnode_sh) · [TikTok](https://www.tiktok.com/@xnode.sh)
