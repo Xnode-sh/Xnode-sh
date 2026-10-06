@@ -95,8 +95,6 @@ PLAN → ISSUE → BRANCH → WORK → TEST → PR → REVIEW → MERGE
 
 <p align="center"><img src="https://raw.githubusercontent.com/Xnode-sh/Xnode-sh/output/snake-dark.svg" alt="contribution snake"></p>
 
-<p align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=Xnode-sh&bg_color=09090b&color=f4f1ec&line=ce3049&point=a91d32&area=true&area_color=a91d32&hide_border=true&custom_title=Lab%20Activity" alt="activity graph" width="1000"></p>
-
 ## Статус лаборатории
 
 <img src="assets/node.svg" width="32" alt="NODE"> CORE объединяет четыре инженерных узла. Проекты развиваются, изменения проходят review. Статусы проектов указаны в их README.
