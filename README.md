@@ -1,49 +1,61 @@
-<div align="center">
+<p align="center"><img src="assets/banner.svg" width="1280" alt="XNODE — RED └•TEAM•┐ lab™ · Research • Tools • OSINT • AI"></p>
 
-<img src="assets/banner.svg" alt="RED·TEAM·LAB by Xnode" width="100%">
+<p align="center"><a href="https://github.com/Xnode-sh/RED-TEAM-LAB">Штаб</a> · <a href="https://github.com/Xnode-sh/xnode-osint">OSINT</a> · <a href="https://github.com/Xnode-sh/termux-agent">AI</a> · <a href="https://redteam.is-a.dev">Сайт</a></p>
 
-**Termux · OSINT · локальные LLM-агенты на Android**
-<br>Гайды и туториалы — без воды, всё проверено руками
+**RED └•TEAM•┐ lab™** — инженерная лаборатория XNODE. Исследуем Linux и Android, создаём CLI-инструменты, автоматизацию и локальных AI-агентов. Штаб, роли и процесс работы — в [RED-TEAM-LAB](https://github.com/Xnode-sh/RED-TEAM-LAB).
 
-<a href="https://t.me/xnode_sh"><img src="https://img.shields.io/badge/Telegram-@xnode__sh-00e5ff?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0a0f1c" alt="Telegram"></a>
-<a href="https://www.tiktok.com/@xnode.sh"><img src="https://img.shields.io/badge/TikTok-@xnode.sh-2979ff?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=0a0f1c" alt="TikTok"></a>
-<a href="https://redteam.is-a.dev"><img src="https://img.shields.io/badge/site-redteam.is--a.dev-ff2e4d?style=for-the-badge&labelColor=0a0f1c" alt="Сайт"></a>
+<img src="assets/divider.svg" width="1280" alt="">
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Termux](https://img.shields.io/badge/Termux-000000?style=flat-square&logo=android&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+## Команда
 
-</div>
+| RIG | KAI | NOVA |
+| :--- | :--- | :--- |
+| <img src="assets/team-rig.svg" width="260" alt="RIG — Linux и системы"> | <img src="assets/team-kai.svg" width="260" alt="KAI — Android и полевая работа"> | <img src="assets/team-nova.svg" width="260" alt="NOVA — автоматизация и инструменты"> |
+| Linux, железо, инфраструктура | Android, Termux, Ubuntu/proot | CLI, интеграции, автоматизация |
 
----
+NODE — маленький кибер-лисёнок, фирменный маскот лаборатории.
 
-## 🔴 Сейчас в работе
+## Архитектура
 
-**RED TEAM LAB** — флагманский проект: Android-терминал с тайловыми окнами и локальным AI-компаньоном. Стек: Flutter + Rust. Проект в разработке, репозиторий приватный.
+```text
+XNODE / RED └•TEAM•┐ lab™
+├── CORE   RED-TEAM-LAB · штаб / роли / workflow
+├── LAB    termux-agent · vibe-chat
+├── TOOLS  xnode-osint · sockpuppet-hunter · wifi-audit · netmon
+└── PUBLIC профиль · redteam.is-a.dev
+```
 
----
+## Основные проекты
 
-## Проекты
+| Проект | Назначение |
+| :--- | :--- |
+| [RED-TEAM-LAB](https://github.com/Xnode-sh/RED-TEAM-LAB) | Главный штаб: команда, документация и инженерный процесс |
+| [termux-agent](https://github.com/Xnode-sh/termux-agent) | Локальный LLM-агент с вызовом инструментов для Termux/proot |
+| [xnode-osint](https://github.com/Xnode-sh/xnode-osint) | CLI-набор для исследования открытых данных |
+| [sockpuppet-hunter](https://github.com/Xnode-sh/sockpuppet-hunter) | Корреляция публичных профилей по совокупности сигналов |
 
-| Проект | Описание |
-|:--|:--|
-| [**xnode-osint**](https://github.com/Xnode-sh/xnode-osint) | OSINT / red-team CLI для Termux: email, username, phone, EXIF |
-| [**termux-agent**](https://github.com/Xnode-sh/termux-agent) | Локальный LLM-агент с tool-calling для Termux/proot |
-| [**netmon**](https://github.com/Xnode-sh/netmon) | Монитор локальной сети для Windows: устройства, DNS-лог, захват трафика |
-| [**wifi-audit**](https://github.com/Xnode-sh/wifi-audit) | Проверка своих паролей Wi-Fi на слабость (для авторизованного тестирования собственных сетей) |
-| [**vibe-chat**](https://github.com/Xnode-sh/vibe-chat) | TUI-чат с двумя AI-агентами: Claude Code и opencode |
-| [**sockpuppet-hunter**](https://github.com/Xnode-sh/sockpuppet-hunter) | Поиск связанных аккаунтов по совокупности сигналов (для авторизованной проверки собственных аккаунтов) |
-| [**Xnode-sh.github.io**](https://github.com/Xnode-sh/Xnode-sh.github.io) | Сайт redteam.is-a.dev |
+## Инструменты
 
----
+[**wifi-audit**](https://github.com/Xnode-sh/wifi-audit) — локальная оценка стойкости паролей.<br>
+[**netmon**](https://github.com/Xnode-sh/netmon) — инвентаризация и диагностика LAN в Windows.<br>
+[**vibe-chat**](https://github.com/Xnode-sh/vibe-chat) — интерфейс для работы с двумя AI CLI.
 
-## Контакты
+## Технологии
 
-- Telegram: [@xnode_sh](https://t.me/xnode_sh)
-- TikTok: [@xnode.sh](https://www.tiktok.com/@xnode.sh)
-- Сайт: [redteam.is-a.dev](https://redteam.is-a.dev)
+**Системы:** Linux · Debian · Android · Termux · proot<br>
+**Разработка:** Python · Bash · PowerShell · JavaScript / Node.js · Rust<br>
+**Инструменты:** Git · GitHub CLI · SSH · ADB · Ollama
 
-> Все атакующие техники — только на своём оборудовании или в лаборатории.
+## Workflow
+
+`PLAN → ISSUE → BRANCH → WORK → TEST → PR → REVIEW → MERGE`
+
+Рабочие ветки: `rig/<task>` · `kai/<task>` · `nova/<task>`. Подробности — в [WORKFLOW.md](https://github.com/Xnode-sh/RED-TEAM-LAB/blob/main/WORKFLOW.md).
+
+<img src="assets/divider.svg" width="1280" alt="">
+
+## Статус лаборатории
+
+<img src="assets/node.svg" width="32" alt="NODE"> Штаб организован · проекты развиваются · проверка проходит через review. Статусы отдельных проектов публикуются в их README; эта страница не заменяет CI и не заявляет готовность всех инструментов.
+
+[GitHub](https://github.com/Xnode-sh) · [Сайт](https://redteam.is-a.dev) · [Telegram](https://t.me/xnode_sh) · [TikTok](https://www.tiktok.com/@xnode.sh)
