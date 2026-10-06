@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="185" viewBox="0 0 200 185" role="img"><title>NODE — маскот лаборатории, кибер-лисёнок</title><g stroke="#484950" stroke-width="2" stroke-linejoin="round">
+<path d="M126 110 C190 61 204 125 163 161 L124 150 C176 133 172 96 143 121" fill="#f4f1ec"/>
+<path d="M146 116 l16 -8 -4 18 18 5 -18 8" fill="none" stroke="#d1d0cc"/>
+<path d="M66 121 Q90 105 117 121 L129 157 Q96 174 59 154Z" fill="#202126"/>
+<path d="M64 139 L55 162 Q65 172 80 161 L83 140 M106 140 L110 164 Q127 170 135 159 L122 138" fill="#141418"/>
+<path d="M49 77 L40 17 Q60 12 83 55 M109 55 Q130 10 149 18 L141 79" fill="#202126"/>
+<path d="M53 57 L50 31 72 61 M119 61 L140 31 135 61" fill="#a91d32" stroke="none"/>
+<path d="M47 64 Q94 42 142 65 L152 102 Q146 133 96 137 Q45 132 39 103Z" fill="#202126"/>
+<path d="M54 74 Q95 60 135 74 L139 106 Q126 123 96 123 Q63 123 49 104Z" fill="#09090b"/>
+<path d="M66 92 Q73 83 81 92 M108 92 Q116 83 123 92" fill="none" stroke="#ce3049" stroke-width="4" stroke-linecap="round"/>
+<path d="M91 108 Q96 112 101 108" fill="none" stroke="#a91d32" stroke-width="2" stroke-linecap="round"/>
+<path d="M88 130 h16 M90 134 h12 M92 130 v12 M100 130 v12" stroke="#ce3049" stroke-width="2"/>
+<path d="M65 154 h13 M116 155 h13" stroke="#ce3049" stroke-width="2"/>
+</g></svg>
