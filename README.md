@@ -1,5 +1,7 @@
 <p align="center"><img src="assets/banner.svg" width="1280" alt="XNODE — RED └•TEAM•┐ lab™ · Research • Tools • OSINT • AI"></p>
 
+<p align="center"><img src="assets/neural-cognition.svg" width="1280" alt="NEURAL ACTIVITY — лог мышления ИИ по кластерам: reasoning · memory · planning"></p>
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=26&duration=2600&pause=800&color=CE3049&center=true&vCenter=true&width=900&height=70&lines=RED+TEAM+LAB;RIG+%C2%B7+KAI+%C2%B7+NOVA+%C2%B7+ORBIT;Research+%E2%80%A2+Tools+%E2%80%A2+OSINT+%E2%80%A2+AI" alt="RED TEAM LAB">
 </p>
