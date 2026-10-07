@@ -93,7 +93,7 @@ PLAN → ISSUE → BRANCH → WORK → TEST → PR → REVIEW → MERGE
 
 ## Активность
 
-<p align="center"><img src="https://raw.githubusercontent.com/Xnode-sh/Xnode-sh/output/snake-dark.svg" alt="contribution snake"></p>
+<p align="center"><img src="assets/node-activity.svg" width="1280" alt="NODE — анимированная матрица RED TEAM LAB: подсветка блоков кода и кибер-лисёнок"></p>
 
 ## Статус лаборатории
 
