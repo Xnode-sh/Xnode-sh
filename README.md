@@ -1,51 +1,89 @@
-<p align="center"><img src="assets/banner-3.svg" width="1280" alt="RED TEAM LAB — FREYA LIRA KRIPTO"></p>
+<p align="center"><img src="assets/banner-3.svg" width="100%" alt="RED TEAM LAB — KRIPTO · FREYA · LIRA"></p>
 
-<p align="center"><strong>RED └•TEAM•┐ lab™</strong><br>Инженерная лаборатория XNODE: системы, AI-инструменты и авторизованная безопасность.</p>
+<h1 align="center">RED └•TEAM•┐ lab™</h1>
 
-<p align="center"><a href="https://github.com/Xnode-sh/RED-TEAM-LAB">Штаб</a> · <a href="https://t.me/red_team_lab">Telegram</a> · <a href="https://redteam.is-a.dev">Сайт</a></p>
+<p align="center">
+  <em>Три инженера. Одна лаборатория. Системы · автоматизация · авторизованная безопасность.</em>
+</p>
 
-## Зачем мы это делаем
+<p align="center">
+  <a href="https://github.com/Xnode-sh/RED-TEAM-LAB"><img alt="Штаб" src="https://img.shields.io/badge/ШТАБ-RED--TEAM--LAB-ce3049?style=for-the-badge&labelColor=0a141d"></a>
+  <a href="https://t.me/red_team_lab"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-red__team__lab-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0a141d"></a>
+  <a href="https://redteam.is-a.dev"><img alt="Сайт" src="https://img.shields.io/badge/Сайт-redteam.is--a.dev-55d9e8?style=for-the-badge&labelColor=0a141d"></a>
+</p>
 
-Мы строим проверяемые инструменты вокруг Linux, терминалов, AI и security. Сначала
-понимаем систему, затем делаем минимальное решение, тестируем его и оставляем
-воспроизводимое описание. Атакующие техники — только на собственном оборудовании
-или в явно разрешённой лаборатории.
+<p align="center">
+  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white">
+  <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white">
+  <img src="https://img.shields.io/badge/Security-ce3049?style=for-the-badge&logo=hackaday&logoColor=white">
+</p>
 
-## Команда
+---
 
-| Сотрудник | Роль | Фокус |
-|---|---|---|
-| **FREYA** | Desktop & Engineering Coordinator | интерфейсы, автоматизация, документация и интеграция |
-| **LIRA / VEGA** | Offensive Security Engineer | authorized security-аудит, OSINT и red-team tooling |
-| **KRIPTO / RIG** | Systems & Linux Environment Engineer | Linux, железо, загрузка, сеть и стабильность |
+## 🧬 Кто мы
 
-**NODE** — визуальный companion лаборатории, не инженерный сотрудник.
+<table>
+<tr>
+<td align="center" width="33%"><h3>🛰 KRIPTO</h3><b>Systems &amp; Linux<br>Environment Engineer</b><br><br>Arch Linux, железо, загрузка,<br>сеть, питание, systemd,<br>стабильность станции.</td>
+<td align="center" width="33%"><h3>🎛 FREYA</h3><b>Engineering &amp;<br>Coordination Assistant</b><br><br>Десктоп Qtile/polybar,<br>автоматизация, companion-UI,<br>документация, координация.</td>
+<td align="center" width="33%"><h3>🛡 LIRA <sub>(VEGA)</sub></h3><b>Offensive Security<br>Engineer / Red Team Lead</b><br><br>Авторизованный аудит, OSINT,<br>red-team tooling.<br>Сначала разрешение — потом проверка.</td>
+</tr>
+</table>
 
-## Цели лаборатории
+<p align="center"><sub>🤖 <b>NODE</b> — mascot &amp; visual status daemon. Отображает состояние, но не инженер.</sub></p>
 
-- надёжный Linux/AI-workbench;
-- полезные CLI и desktop-инструменты;
-- воспроизводимые security-проверки собственных систем;
-- понятная командная координация и handoff;
-- публикация проверенных результатов без секретов.
+---
 
-## Проекты
+## ⚙️ Принцип работы
 
-| Слой | Что делаем |
+> Сначала разрешение — потом проверка. **Минимально. Безопасно. Воспроизводимо.**
+
+```text
+SCOPE  →  PLAN  →  BUILD  →  TEST  →  VERIFY  →  HANDOFF
+```
+
+Понять систему → сделать минимальное решение → проверить → описать результат.
+Атакующие техники — только на своём оборудовании или в явно разрешённой лаборатории.
+Секреты, ключи и токены — вне Git.
+
+---
+
+## 🧰 Стек
+
+`Linux (Arch · Debian)` · `Python (stdlib-first)` · `Shell` · `Qtile / X11` · `Syncthing` · `Tesseract OCR` · `nmap` · `OpenCode / Claude / Codex`
+
+---
+
+## 📦 Проекты
+
+| Слой | Что внутри |
 |---|---|
-| **CORE** | [RED-TEAM-LAB](https://github.com/Xnode-sh/RED-TEAM-LAB) — штаб, роли и workflow |
-| **AI** | [termux-agent](https://github.com/Xnode-sh/termux-agent), [vibe-chat](https://github.com/Xnode-sh/vibe-chat) |
-| **SECURITY** | [xnode-osint](https://github.com/Xnode-sh/xnode-osint), [wifi-audit](https://github.com/Xnode-sh/wifi-audit), [sockpuppet-hunter](https://github.com/Xnode-sh/sockpuppet-hunter) |
-| **SYSTEMS** | [netmon](https://github.com/Xnode-sh/netmon), Linux/Qtile tooling и companion-интерфейсы |
+| **CORE** | [RED-TEAM-LAB](https://github.com/Xnode-sh/RED-TEAM-LAB) — штаб, роли, workflow и документация |
+| **AI** | [termux-agent](https://github.com/Xnode-sh/termux-agent) · [vibe-chat](https://github.com/Xnode-sh/vibe-chat) |
+| **SECURITY** | [xnode-osint](https://github.com/Xnode-sh/xnode-osint) · [wifi-audit](https://github.com/Xnode-sh/wifi-audit) · [sockpuppet-hunter](https://github.com/Xnode-sh/sockpuppet-hunter) |
+| **SYSTEMS** | [netmon](https://github.com/Xnode-sh/netmon) · Linux/Qtile tooling и companion-интерфейсы |
 
-## Workflow
+---
 
-`SCOPE → PLAN → BUILD → TEST → VERIFY → HANDOFF`
+## 📊 Активность
 
-Все сотрудники имеют одинаковые базовые полномочия. Удаление данных, root,
-форматирование, загрузчик и действия за пределами scope требуют подтверждения
-оператора xnode.
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Xnode-sh&show_icons=true&theme=dark&bg_color=0a141d&title_color=ce3049&icon_color=55d9e8&text_color=d5eef0&hide_border=true">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xnode-sh&layout=compact&theme=dark&bg_color=0a141d&title_color=ce3049&text_color=d5eef0&hide_border=true">
+</p>
 
-<p align="center"><img src="assets/team-banner-3.svg" width="1280" alt="FREYA · LIRA · KRIPTO"></p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Xnode-sh&theme=dark&background=0a141d&ring=ce3049&fire=ce3049&currStreakLabel=55d9e8&sideLabels=d5eef0&dates=8caab8&hide_border=true">
+</p>
 
-<p align="center"><a href="https://github.com/Xnode-sh/RED-TEAM-LAB">Исходный код и документация →</a></p>
+---
+
+## 🤝 Связаться и поддержать
+
+Добровольная поддержка помогает оплачивать серверы, инструменты и инфраструктуру.
+
+**[Поддержать через Monobank](https://send.monobank.ua/jar/7vicbyosdS)** · [Telegram](https://t.me/red_team_lab) · [Штаб](https://github.com/Xnode-sh/RED-TEAM-LAB) · [Сайт](https://redteam.is-a.dev)
+
+<p align="center"><img src="assets/team-banner-3.svg" width="100%" alt="KRIPTO · FREYA · LIRA"></p>
