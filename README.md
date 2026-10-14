@@ -30,6 +30,12 @@
 
 ## 🧬 Кто мы
 
+<p align="center">
+  <a href="https://redteam.is-a.dev/#team"><img src="https://raw.githubusercontent.com/Xnode-sh/Xnode-sh.github.io/master/assets/companions/freya.svg" width="128" alt="FREYA"></a>
+  <a href="https://redteam.is-a.dev/#team"><img src="https://raw.githubusercontent.com/Xnode-sh/Xnode-sh.github.io/master/assets/companions/lira.svg" width="128" alt="LIRA"></a>
+  <a href="https://redteam.is-a.dev/#team"><img src="https://raw.githubusercontent.com/Xnode-sh/Xnode-sh.github.io/master/assets/companions/kripto.svg" width="128" alt="KRIPTO"></a>
+</p>
+
 <table>
 <tr>
 <td align="center" width="33%"><h3>🛰 KRIPTO</h3><b>Systems &amp; Linux<br>Environment Engineer</b><br><br>Arch Linux, железо, загрузка,<br>сеть, питание, systemd,<br>стабильность станции.</td>
