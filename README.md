@@ -30,11 +30,13 @@
 
 ## 🧬 Кто мы
 
-<p align="center">
-  <a href="https://redteam.is-a.dev/#team"><img src="https://raw.githubusercontent.com/Xnode-sh/Xnode-sh.github.io/master/assets/companions/freya.svg" width="128" alt="FREYA"></a>
-  <a href="https://redteam.is-a.dev/#team"><img src="https://raw.githubusercontent.com/Xnode-sh/Xnode-sh.github.io/master/assets/companions/lira.svg" width="128" alt="LIRA"></a>
-  <a href="https://redteam.is-a.dev/#team"><img src="https://raw.githubusercontent.com/Xnode-sh/Xnode-sh.github.io/master/assets/companions/kripto.svg" width="128" alt="KRIPTO"></a>
-</p>
+<table align="center">
+<tr>
+<td align="center"><a href="https://redteam.is-a.dev/#team"><img src="https://raw.githubusercontent.com/Xnode-sh/Xnode-sh.github.io/master/assets/companions/freya.svg" width="120" alt="FREYA"></a><br><img src="https://img.shields.io/badge/FREYA-45f0d0?style=for-the-badge&labelColor=0a141d" alt="FREYA"><br><sub>Desktop &amp; Engineering Coordinator</sub></td>
+<td align="center"><a href="https://redteam.is-a.dev/#team"><img src="https://raw.githubusercontent.com/Xnode-sh/Xnode-sh.github.io/master/assets/companions/lira.svg" width="120" alt="LIRA"></a><br><img src="https://img.shields.io/badge/LIRA-b57aff?style=for-the-badge&labelColor=0a141d" alt="LIRA"><br><sub>Offensive Security Engineer</sub></td>
+<td align="center"><a href="https://redteam.is-a.dev/#team"><img src="https://raw.githubusercontent.com/Xnode-sh/Xnode-sh.github.io/master/assets/companions/kripto.svg" width="120" alt="KRIPTO"></a><br><img src="https://img.shields.io/badge/KRIPTO-ff7bb8?style=for-the-badge&labelColor=0a141d" alt="KRIPTO"><br><sub>Systems &amp; Linux Engineer</sub></td>
+</tr>
+</table>
 
 <table>
 <tr>
