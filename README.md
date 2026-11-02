@@ -5,5 +5,13 @@
 <a href="https://github.com/Xnode-sh/xnode-osint"><img src="assets/freebox/xnode-osint.png" width="100%" alt="02 · xnode-osint — OSINT-инструменты и HTML-отчёты. Python · CLI. Открыть репозиторий."></a><br>
 <a href="https://github.com/Xnode-sh/netmon"><img src="assets/freebox/netmon.png" width="100%" alt="03 · netmon — мониторинг локальной сети и DNS. Windows · Python · CLI. Открыть репозиторий."></a><br>
 <img src="assets/freebox/crew.png" width="100%" alt="Четыре направления. Один контур. FREYA — Engineering; KRIPTO — Systems; VECTOR — Hardware; LIRA — Security."><br>
-<img src="assets/freebox/nav-stack.png" width="41%" alt="Linux · Python · Shell · Termux."><a href="https://t.me/red_team_lab"><img src="assets/freebox/nav-telegram.png" width="13%" alt="Telegram"></a><a href="https://redteam.is-a.dev"><img src="assets/freebox/nav-site.png" width="11%" alt="Сайт"></a><a href="https://github.com/Xnode-sh?tab=repositories"><img src="assets/freebox/nav-repositories.png" width="16%" alt="Репозитории"></a><a href="https://send.monobank.ua/jar/7vicbyosdS"><img src="assets/freebox/nav-support.png" width="19%" alt="Поддержать RED TEAM LAB"></a>
 </p>
+
+<p align="center">
+<a href="https://t.me/red_team_lab"><img src="assets/freebox/link-telegram.gif" width="49%" alt="Telegram — анимированная кнопка"></a><a href="https://redteam.is-a.dev"><img src="assets/freebox/link-site.gif" width="49%" alt="Сайт лаборатории — анимированная кнопка"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/Xnode-sh?tab=repositories"><img src="assets/freebox/link-repositories.gif" width="49%" alt="Открытые проекты — анимированная кнопка"></a><a href="https://send.monobank.ua/jar/7vicbyosdS"><img src="assets/freebox/link-support.gif" width="49%" alt="Поддержать лабораторию — анимированная кнопка"></a>
+</p>
+
