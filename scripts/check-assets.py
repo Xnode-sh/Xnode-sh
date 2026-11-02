@@ -16,6 +16,13 @@ class Images(HTMLParser):
         path = (ROOT / source).resolve()
         if not source or not path.is_relative_to(ROOT) or not path.is_file():
             raise SystemExit(f'Missing or invalid image: {source}')
+        data = path.read_bytes()
+        if not data:
+            raise SystemExit(f'Empty image: {source}')
+        if path.suffix.lower() == '.png' and not data.startswith(b'\x89PNG\r\n\x1a\n'):
+            raise SystemExit(f'Invalid PNG: {source}')
+        if path.suffix.lower() == '.gif' and (data[:6] not in (b'GIF87a', b'GIF89a') or data[-1:] != b';'):
+            raise SystemExit(f'Invalid GIF: {source}')
         if path.suffix == '.svg':
             ET.parse(path)
         print(f'OK {source}')
