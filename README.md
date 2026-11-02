@@ -4,7 +4,8 @@
 <a href="https://github.com/Xnode-sh/termux-agent"><img src="assets/freebox/project-termux-agent.gif" width="49%" alt="termux-agent — открыть проект"></a><a href="https://github.com/Xnode-sh/xnode-osint"><img src="assets/freebox/project-xnode-osint.gif" width="49%" alt="xnode-osint — открыть проект"></a><br>
 <a href="https://github.com/Xnode-sh/vibe-chat"><img src="assets/freebox/project-vibe-chat.gif" width="49%" alt="vibe-chat — открыть проект"></a><a href="https://github.com/Xnode-sh/netmon"><img src="assets/freebox/project-netmon.gif" width="49%" alt="netmon — открыть проект"></a><br>
 <a href="https://github.com/Xnode-sh/wifi-audit"><img src="assets/freebox/project-wifi-audit.gif" width="49%" alt="wifi-audit — открыть проект"></a><a href="https://github.com/Xnode-sh/Xnode-sh.github.io"><img src="assets/freebox/project-lab-web.gif" width="49%" alt="Xnode-sh.github.io — открыть проект"></a><br>
-<img src="assets/freebox/crew.png" width="100%" alt="Четыре направления. Один контур. FREYA — Engineering; KRIPTO — Systems; VECTOR — Hardware; LIRA — Security."><br>
+<a href="https://github.com/Xnode-sh/sockpuppet-hunter"><img src="assets/freebox/project-sockpuppet.gif" width="49%" alt="sockpuppet-hunter — корреляция публичных профилей, открыть проект"></a><br>
+<img src="assets/freebox/crew.png" width="100%" alt="Четыре направления. Один контур. FREYA — Engineering; KRIPTO — Systems; TRACE — Hardware; LIRA — Security."><br>
 </p>
 
 <p align="center">

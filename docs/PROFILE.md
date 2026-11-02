@@ -20,7 +20,7 @@
 | --- | --- |
 | FREYA | Engineering & Coordination — Qtile/polybar, автоматизация, companion-UI, документация |
 | KRIPTO | Systems & Linux — загрузка, сеть, питание, systemd, стабильность станции |
-| VECTOR | Hardware & Firmware — платы, микроконтроллеры, прошивки, аппаратная диагностика |
+| TRACE | Hardware & Firmware — платы, микроконтроллеры, прошивки, аппаратная диагностика |
 | LIRA (VEGA) | Security — авторизованный аудит, OSINT, red-team tooling |
 
 **NODE** — mascot & visual status daemon: отображает состояние лаборатории.
