@@ -5,9 +5,14 @@
 <a href="https://github.com/Xnode-sh/vibe-chat"><img src="assets/freebox/project-vibe-chat.gif" width="49%" alt="vibe-chat — открыть проект"></a><a href="https://github.com/Xnode-sh/netmon"><img src="assets/freebox/project-netmon.gif" width="49%" alt="netmon — открыть проект"></a><br>
 <a href="https://github.com/Xnode-sh/wifi-audit"><img src="assets/freebox/project-wifi-audit.gif" width="49%" alt="wifi-audit — открыть проект"></a><a href="https://github.com/Xnode-sh/Xnode-sh.github.io"><img src="assets/freebox/project-lab-web.gif" width="49%" alt="Xnode-sh.github.io — открыть проект"></a><br>
 <a href="https://github.com/Xnode-sh/sockpuppet-hunter"><img src="assets/freebox/project-sockpuppet.gif" width="49%" alt="sockpuppet-hunter — корреляция публичных профилей, открыть проект"></a><a href="https://github.com/Xnode-sh/clipd"><img src="assets/freebox/project-clipd.gif" width="49%" alt="clipd — Clipboard Intelligence Daemon для Termux, открыть проект"></a><br>
-<a href="https://github.com/Xnode-sh/frewb"><strong>frewb · Firmware RE Workbench</strong></a><br>
-<sub>Анализ образов прошивок и отчёты с находками · CLI и TUI для Termux</sub><br><br>
+<a href="https://github.com/Xnode-sh/frewb"><img src="assets/freebox/project-frewb.svg" width="100%" alt="frewb — Firmware RE Workbench. Анализ дампов прошивок и отчёты с находками. Открыть проект."></a><br><br>
 <img src="assets/freebox/crew.png" width="100%" alt="Четыре направления. Один контур. FREYA — Engineering; KRIPTO — Systems; TRACE — Hardware; LIRA — Security."><br>
+</p>
+
+<p align="center">
+<strong>Прошивки, Termux и Linux из RED └•TEAM•┐ lab™</strong><br>
+<sub>Утилиты с открытым кодом, разборы железа и сценарии, которые можно повторить.</sub><br>
+<a href="https://github.com/Xnode-sh?tab=overview"><strong>Подписаться на xnode.sh в GitHub ↗</strong></a>
 </p>
 
 <p align="center">
