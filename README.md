@@ -1,11 +1,17 @@
 <!-- FREEBOX: approved lab artwork, Latin motto. Each public project row links to its repository. -->
 <p align="center">
 <img src="assets/freebox/lab.png" width="100%" alt="xnode.sh — RED └•TEAM•┐ lab™. Praeterita restituere. Praesentia explorare. Futura creare. Из лаборатории — в код."><br>
+<a href="https://github.com/Xnode-sh/frewb"><img src="assets/freebox/project-frewb.gif" width="49%" alt="FREWB — анализ прошивок"></a><a href="https://github.com/Xnode-sh?tab=overview"><img src="assets/freebox/link-follow.gif" width="49%" alt="FOLLOW / XNODE — подписаться в GitHub"></a><br>
 <a href="https://github.com/Xnode-sh/termux-agent"><img src="assets/freebox/project-termux-agent.gif" width="49%" alt="termux-agent — открыть проект"></a><a href="https://github.com/Xnode-sh/xnode-osint"><img src="assets/freebox/project-xnode-osint.gif" width="49%" alt="xnode-osint — открыть проект"></a><br>
 <a href="https://github.com/Xnode-sh/vibe-chat"><img src="assets/freebox/project-vibe-chat.gif" width="49%" alt="vibe-chat — открыть проект"></a><a href="https://github.com/Xnode-sh/netmon"><img src="assets/freebox/project-netmon.gif" width="49%" alt="netmon — открыть проект"></a><br>
 <a href="https://github.com/Xnode-sh/wifi-audit"><img src="assets/freebox/project-wifi-audit.gif" width="49%" alt="wifi-audit — открыть проект"></a><a href="https://github.com/Xnode-sh/Xnode-sh.github.io"><img src="assets/freebox/project-lab-web.gif" width="49%" alt="Xnode-sh.github.io — открыть проект"></a><br>
 <a href="https://github.com/Xnode-sh/sockpuppet-hunter"><img src="assets/freebox/project-sockpuppet.gif" width="49%" alt="sockpuppet-hunter — корреляция публичных профилей, открыть проект"></a><a href="https://github.com/Xnode-sh/clipd"><img src="assets/freebox/project-clipd.gif" width="49%" alt="clipd — Clipboard Intelligence Daemon для Termux, открыть проект"></a><br>
 <img src="assets/freebox/crew.png" width="100%" alt="Четыре направления. Один контур. FREYA — Engineering; KRIPTO — Systems; TRACE — Hardware; LIRA — Security."><br>
+</p>
+
+<p align="center">
+<strong>Прошивки, Termux и Linux из RED └•TEAM•┐ lab™</strong><br>
+<sub>Утилиты с открытым кодом, разборы железа и сценарии, которые можно повторить.</sub><br>
 </p>
 
 <p align="center">
